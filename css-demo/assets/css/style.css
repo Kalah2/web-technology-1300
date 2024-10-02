@@ -95,7 +95,7 @@ header.primary nav ul li a:hover{
 
 /* --------- Media Queries ----------- */
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 860px){
   
   header.primary nav ul{
     flex-direction:column;
