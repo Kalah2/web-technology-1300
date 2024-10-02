@@ -1,0 +1,40 @@
+/* ------  css-demo --------*/
+
+/*  ---- Color Scheme ---- 
+Main Color - #DC9CFF
+
+
+*/
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
+body{
+    background-color: rgb(122, 83, 189);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+
+main{
+    background-color: plum ;
+    width: 60vw;
+    margin:auto;
+}
+
+header.primary{
+    background-color: #C14FFF ;
+    color:#ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 20px #000000;
+}
+
+header .primary {background-color: aqua;}
