@@ -175,8 +175,7 @@ header.primary nav ul li a:hover{
   margin:0;
 }
 
-#blog figcaption, 
-time.post-date{
+#blog figcaption, time.post-date{
   text-transform:uppercase;
   font-size: 0.6rem;
   text-align: center;
