@@ -148,6 +148,16 @@ header.primary nav ul li a:hover{
   border-bottom: 1px dotted #a635df
 }
 
+#content h3{
+  color:#a635df;
+  border-bottom: 1px dotted #a635df
+}
+
+#content h4{
+  color:#a635df;
+  border-bottom: 1px dotted #a635df
+}
+
 #blog {
   display:flex;
   justify-content:space-around;
@@ -200,9 +210,10 @@ header.primary nav ul li a:hover{
 }
 
 #practice h2 {
-  color: #8c62b1;
-  border-bottom: 1px dotted #cccccc;
+    color:#a635df;
+    border-bottom: 1px dotted #a635df
 }
+
 
 #practice a {
   color: #7837b0;
@@ -215,6 +226,8 @@ header.primary nav ul li a:hover{
 #practice h3 {
   border-left: 7.55px solid #9361d8;
   padding: 5px 0 5px 10px;
+    color:#a635df;
+    border-bottom: 1px dotted #a635df
 }
 
 table {
@@ -258,10 +271,12 @@ td {
 
 #practice ul li ul {
   list-style-type: square;
+
 }
 
 #practice dl dt {
   font-weight: bold;
+  color: rgb(93, 31, 160);
 }
 
 dl dd {
