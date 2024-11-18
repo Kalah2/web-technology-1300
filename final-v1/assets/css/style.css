@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: "Libre Baskerville", serif;
-    margin: 0;
+    margin: auto;
     background-color: rgb(254, 252, 255);
 }
 
@@ -24,7 +24,21 @@ header.primary nav {
     max-width: 960px;
     margin:auto;
   }
+  h3{
+    padding-right: 40px;
+    padding-left: 40px;
+    border-bottom: 3px dotted #8c34e3
   
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size:20px;
+    color: #0e0e0e;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
   header.primary nav ul {
     display:flex;
     flex-direction:row;
@@ -50,17 +64,14 @@ header.primary nav {
     background-color: rgba(0,0,0, .8);
   }
 
-  header.primary{
-    color:#ffffff;
-    text-align: center;
-    text-shadow: 2px 2px 20px #000000;
-    }
-
-.header {
-    position:relative;
-    text-align:center;
-    background-image: url("https://img.freepik.com/free-photo/purple-shade-smoke-starry-night-stars_23-2148227253.jpg")
+  header.primary {
+  color:#ffffff;
+  text-align: center;
+  text-shadow: 2px 2px 20px #161515;
+  position:relative;
+  background-image: url("https://img.freepik.com/free-photo/purple-shade-smoke-starry-night-stars_23-2148227253.jpg")
 }
+   
 .waves {
     position:relative;
     width: 100%;
@@ -75,6 +86,7 @@ header.primary nav {
     height:20vh;
     text-align:center;
     background-color: rgb(254, 250, 254);
+    
   }
   
   /* Animation */
@@ -105,4 +117,8 @@ header.primary nav {
     100% { 
       transform: translate3d(85px,0,0);
     }
+  }
+
+  footer{
+    text-align: center;
   }
