@@ -1,3 +1,42 @@
 body{
     background-color:rgb(187, 111, 250);
+    font-family: "Playfair Display", serif;
+    margin:0;
+    padding-top: 40px;
+     padding-right: 40px;
+     padding-bottom: 40px;
+     padding-left: 40px;
+}
+
+nav{
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:10px 0;
+    
+}
+nav{
+    list-style-type:none;
+}
+
+nav{
+    color:#ffffff;
+  font-size:.9rem;
+  text-decoration:none;
+  border:1px solid #c0c0c0;
+  padding: 7.5px 10px;
+  background-color: rgba(0,0,0, .4);
+  border-radius:20px;
+  transition:.4s;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color:#121113;
+    border-bottom: 1px dotted #090909
 }
